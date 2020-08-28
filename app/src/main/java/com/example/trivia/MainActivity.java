@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         new QuestionBank().getQuestions();
+        
     }
+    System.out.println("Hi amar");
 }
